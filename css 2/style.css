@@ -1,0 +1,40 @@
+body{
+    background-color: #c3c3c3;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: justify;
+}
+header{
+    background-color: #374e78;
+    color: white;
+    text-align: center;
+}
+nav{
+    background-color: #a060be;
+    color: white;
+    text-align: center;
+}
+pre{
+    color:  #a060be;
+}
+a:hover{
+    background-color: #88a5da;
+}
+article{
+  background-color: #2e2e2e;
+}
+b{
+    color: #a060be;
+}
+p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ h2{
+    color: #88a5da;
+
+ }
+ .ul_nada {
+        
+    list-style : none;
+    
+    }

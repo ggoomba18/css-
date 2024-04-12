@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header><h1>Selectores de clase en CSS</h1></header>
+
+<nav>Párrafos | Listas | Contenedores | Imágenes</nav>
+<main>
+   <section><article><h2>Clases en párrafos</h2>
+    <p>El selerane de clase aplica sus estilos a todos los elementos HTML. que incluyan dicho nombre de clase. Para declarar este selector CSS 
+        incluimos el <b>nombre de clase precedido de un punto</b> (.)</p>
+       <p>A continuación crestemos una clase para modificar el color, fuente, tamaño y alineación de muestro párrafos</p>
+    <h2>Ejemplo CSS:</h2>
+    <div><pre>.justificado{
+        font-family: Arial, Helvetica, sans-serif
+        color: #e3e3
+        text-align: justify;
+        }</pre></div>
+    <p>En el código HTML aplicamos la clase de la siguiente forma</p>
+    <div><pre>
+        < p class"justificado"> < /p >
+    </pre></div>
+
+    <h2>Párrafos justificados</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ipsam consequatur quod nulla reiciendis dolores nesciunt explicabo
+         perspiciatis consequuntur labore cum, fugit quidem officia nam itaque corrupti, ab nisi odio. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Officius dolor eum porro cupiditate asperiores doloribus saepe dicta rerum ullam explicabo laudantium 
+        facilis molestiae temporibus expedita velit, dolorem maxime. Eaque, tempora?</p>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ipsam consequatur quod nulla reiciendis dolores nesciunt explicabo 
+        perspiciatis consequuntur labore cum, fugit quidem officia nam itaque corrupti, ab nisi odio. Lorem ipsum dolor sit amet consectena 
+        adipisicing elit. Officiis dolor eun porro cupiditate asperiores doloribus saepe dicta rerum ullam explicabo laudantium facilis 
+        molestiae temporibus expedita velit, dolorem maxime. Eaque, tempora?</p>
+   
+    <h2>Párrafos a la derecha</h2>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ipsam consequatur quod nulla reiciendis dolores nescunt explicabo 
+        perspiciatis consequuntur labore cum, fugit quidem officia nam itaque corrupti, ab nisi odio. Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Officius dolor eum porro cupiditate asperiores doloribus saepe dicta rerum ullam explicabo 
+        laudantium facilis molestiae temporibus expedita velit, dolorem maxime. Eaque, tempora?</p>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Corporis ipsam consequatur quod nulla reiciendis dolores nesciunt explicabo 
+        perspiciatis consequuntur labore cum, fugit quidem officia nam itaque corrupti, ab nist odio Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Officis dolor eum porro cupiditate asperiores doloribus saepe dicta rerum ullam explicabo laudantium facilis 
+        molestiae temporibus expedita velit, dolorem maxime Eaque, tempora?</p>
+    </article>
+    </section>
+<article>
+    <section><h2>clases en listas</h2>
+
+        <p>Podemos cambiar los estilos de las viñetas en nuestras listas no ordenadas creando una clase y aplicando el estilo list-style</p>
+    <h2>Listas no ordenadas</h2>
+        
+        <p>Para las <b>listas no ordenadas</b> podemos elegir entre los siguientes estilos</p>
+        
+        <div><pre>
+            .ul nada {
+        
+            list-style : none;
+            
+            }</pre></div>
+        
+        <div><pre>
+            .ul_circle{
+        
+            list-style: circle;
+            
+            }</pre></div>
+        
+        <div><pre>
+            .ul_square{
+        
+            list - s * t : square;
+            
+            }</pre></div>
+        
+        <div><pre>
+            .ul_imagen {
+        
+            list-style-image:url("img/ipn.GIF");
+            
+            }</pre></div>
+       
+    <h2>Lista sin viñeta</h2>
+        
+    <ul>
+        <li>Elemento de lista 1</li>
+        <li>Elemento de lista 2</li>
+        <li>Elemento de lista 3</li>
+        <li>Elemento de lista 4</li>
+        <li>Elemento de lista 5</li>
+    </ul>
+<h2>Lista con círculo</h2>
+        <ul>
+            <li>Elemento de lista 1</li>
+            <li>Elemento de lista 2</li>
+            <li>Elemento de lista 3</li>
+            <li>Elemento de lista 4</li>
+            <li>Elemento de lista 5</li>
+        </ul>
+    <h2>Lista con cuadrado</h2>
+        <ul>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+        </ul>
+    <h2>Lista con cuadrado</h2>
+        <ul>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+        </ul>
+    <h2> Listas ordenadas</h2>
+    
+        Para las <b>listas ordenadas</b> podemos elegir entre los siguientes estilos
+        
+        <div><pre>.ol_letras{
+            list-style: upper_alpha;
+        }</pre></div>
+    
+        <div><pre>.ol_letras{
+            list-style: lower_alpha;
+        }</pre></div>
+        
+        <div><pre>.ol_letras{
+            list-style: upper_roman;
+        }</pre></div>
+        
+        <div><pre>.ol_letras{
+            list-style: lower_roman;
+        }</pre></div>
+    <h2>Lista mayúsculas</h2>
+        <ol>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+        </ol>
+    <h2>Lista minúsculas</h2>
+        <ol>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+        </ol>
+    <h2>Lista números romanos</h2>
+        <ol>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+            <li>Elemento de lista</li>
+        </ol>
+    <h2> Lista con cuadrado</h2>
+       <ol>
+        <li>Elemento de lista</li>
+        <li>Elemento de lista</li>
+        <li>Elemento de lista</li>
+        <li>Elemento de lista</li>
+        <li>Elemento de lista</li>
+    </ol></article></section>
+
+</main>
+
